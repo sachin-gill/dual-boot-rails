@@ -4,13 +4,13 @@ A sample project to verify dual booting a rails app.
 It supports running application in next version as well as current version
 
 To run the application: 
-For running the current version (ex : version 3.2.2)
+For running the current version version 3.2.2
 ```
 RAILS_NEXT=0 bundle install
 RAILS_NEXT=0 Rails server
 ```
 
-For running the next version (ex : version 4.2.0)
+For running the next version version 4.2.0
 ```
 RAILS_NEXT=1 bundle install
 RAILS_NEXT=1 Rails server
